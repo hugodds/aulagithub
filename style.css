@@ -1,6 +1,26 @@
 @charset "UTF-8";
 
-h1 {
+*{
+    background-attachment: fixed;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(186, 186, 255), rgb(203, 147, 255));
+    height: 100%;
+}
+
+main {
+    background-color: white;
+    width: 550px;
+    padding: 2.5%;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 3px 3px 15px rgba(89, 33, 141, 0.651);
+
+    
+}
+
+h1#mainTitle {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 2em;
