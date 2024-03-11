@@ -13,3 +13,8 @@ p {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+a {
+    float: right;
+    font: italic 1em Verdana;
+}
